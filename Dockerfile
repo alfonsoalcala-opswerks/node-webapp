@@ -5,7 +5,7 @@ WORKDIR /home/node/app
 #RUN apt-get update
 #RUN apt-get install git -y
 #RUN git clone https://github.com/eMahtab/node-express-hello-world.git
-RUN cd node-webapp
+RUN cd node-webapp-main
 RUN <<EOF
 npm install
 EOF

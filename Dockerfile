@@ -2,8 +2,8 @@ FROM node:lts-slim
 
 EXPOSE 3000
 WORKDIR /home/node/app
+RUN ls -l
 RUN <<EOF
-cd node-express-hello-world
 npm install
 EOF
 
